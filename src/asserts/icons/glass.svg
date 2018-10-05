@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="17px" viewBox="0 0 18 17" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51.2 (57519) - http://www.bohemiancoding.com/sketch -->
+    <title>610A5E01-0D03-4522-B1BA-3C48172EE3B2</title>
+    <desc>Created with sketchtool.</desc>
+    <defs>
+        <path d="M12.4106536,11.0892208 L16.2985136,14.3291042 C16.6649346,14.634455 16.7144417,15.1790336 16.4090909,15.5454545 C16.1037401,15.9118755 15.5591615,15.9613826 15.1927405,15.6560319 L11.1974314,12.3266076 C10.0192328,13.2604938 8.52928938,13.8181818 6.90909091,13.8181818 C3.09330537,13.8181818 0,10.7248765 0,6.90909091 C0,3.09330537 3.09330537,0 6.90909091,0 C10.7248765,0 13.8181818,3.09330537 13.8181818,6.90909091 C13.8181818,8.48008061 13.2938556,9.92860737 12.4106536,11.0892208 Z M6.90909091,12.0909091 C9.77093007,12.0909091 12.0909091,9.77093007 12.0909091,6.90909091 C12.0909091,4.04725175 9.77093007,1.72727273 6.90909091,1.72727273 C4.04725175,1.72727273 1.72727273,4.04725175 1.72727273,6.90909091 C1.72727273,9.77093007 4.04725175,12.0909091 6.90909091,12.0909091 Z" id="path-1"></path>
+    </defs>
+    <g id="Flow1:-Visualise-the-deck" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Vs-h-2" transform="translate(-1135.000000, -193.000000)">
+            <g id="nav/second" transform="translate(1135.000000, 192.000000)">
+                <g id="icons/glass">
+                    <g id="color/deeppink" transform="translate(0.863636, 1.727273)">
+                        <mask id="mask-2" fill="white">
+                            <use xlink:href="#path-1"></use>
+                        </mask>
+                        <g id="Mask" fill-rule="nonzero"></g>
+                        <g id="color/gs/20" mask="url(#mask-2)" fill="#D8D8D8">
+                            <g transform="translate(-6.909091, -2.590909)" id="Rectangle">
+                                <rect x="0" y="0" width="28" height="21"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

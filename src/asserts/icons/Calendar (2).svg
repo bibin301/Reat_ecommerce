@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="21px" height="21px" viewBox="0 0 21 21" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: sketchtool 51 (57462) - http://www.bohemiancoding.com/sketch -->
+    <title>97E5ED44-9CAA-448A-A010-EC34BF735436-517-000000D50EE2BF2C</title>
+    <desc>Created with sketchtool.</desc>
+    <defs></defs>
+    <g id="Flow0:-Signup-MVP" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Signup-e-1-751px" transform="translate(-483.000000, -39.000000)">
+            <rect fill="#FFFFFF" x="0" y="0" width="751" height="1024"></rect>
+            <g id="nav/top/preset/752" transform="translate(-1.000000, -1.000000)" fill="#000000">
+                <g id="icon/deck" transform="translate(484.000000, 40.000000)">
+                    <path d="M4,9 L7,9 L7,12 L4,12 L4,9 Z M14,9 L17,9 L17,12 L14,12 L14,9 Z M14,14 L17,14 L17,17 L14,17 L14,14 Z M4,14 L7,14 L7,17 L4,17 L4,14 Z M9,14 L12,14 L12,17 L9,17 L9,14 Z M9,9 L12,9 L12,12 L9,12 L9,9 Z M20,5 L1,5 L1,2.89306698 C1,1.84958872 1.81805713,1 2.82533246,1 L4.12946508,1 L5.49024987,1 L15.5108832,1 L16.8694019,1 L18.1735345,1 C19.1808098,1 20,1.84958872 20,2.89306698 L20,5 Z M20,18.2288709 C20,19.2056288 19.1808098,20 18.1735345,20 L2.82533246,20 C1.81805713,20 1,19.2056288 1,18.2288709 L1,7 L20,7 L20,18.2288709 Z M16.659328,0 L15.3457325,0 L5.65645868,0 L4.34067195,0 L3.07966402,0 C1.38152129,0 0,1.40587173 0,3.13394564 L0,17.8649395 C0,19.5941283 1.38152129,21 3.07966402,21 L17.920336,21 C19.6195743,21 21,19.5941283 21,17.8649395 L21,3.13394564 C21,1.40587173 19.6195743,0 17.920336,0 L16.659328,0 Z" id="Calendar"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

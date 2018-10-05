@@ -1,0 +1,3023 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat');
+body,
+html {
+    background-color: #fff;
+    color: #000;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar-default {
+    background-color: #fff;
+    border-color: #fff;
+    padding-top: 20px;
+    height: 100px;
+}
+
+.navbar-default .navbar-brand {
+    color: #000;
+}
+
+.center-align {
+    text-align: center
+}
+
+.center-view {
+    padding-left: 10px;
+}
+
+.view-color {
+    color: #000000;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.cartoon_sec {
+    text-align: center;
+    /* background:gold; */
+    padding: 40px 75px;
+    /* width: 320px; */
+    width: 100%;
+    height: 320px;
+    float: left;
+    position: relative;
+}
+
+.cartoon_img>img {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+}
+
+i.fa.fa-share-alt {
+    color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    border: 1px solid beige;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 1em;
+    /* background: #fff; */
+    text-align: center;
+}
+
+i.fa.fa-caret-up {
+    border: 1px solid black;
+    width: 75px;
+    padding: 2px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.heart {
+    text-align: right;
+}
+
+i.fa.fa-caret-up>span {
+    padding-left: 10px;
+}
+
+.share {
+    text-align: left;
+    position: absolute;
+    bottom: 12em;
+}
+
+.fa.fa-tag {
+    color: transparent;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    padding: 10px;
+}
+
+.first_caption {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.6em;
+}
+
+.second_caption {
+    text-align: center;
+    padding: 20px;
+    font-size: 1.4em;
+}
+
+.caption {
+    background: #fafafa;
+    /* width: 320px; */
+    width:100%;
+    min-height: 95px;
+    float: left;
+    padding: 15px 5px;
+}
+
+.section-container {
+    overflow-y: scroll !important;
+    overflow-x: hidden !important;
+    /* height: 600px !important; */
+    margin-top: 20px;
+}
+
+.force-overflow {
+    width: 335px;
+    /* height: 418px !important; */
+    float: left;
+    /* margin: 20px 0; */
+    position: relative;
+    border: 8px solid #f6f6f6;
+}
+
+.force-overflow:hover {
+    -webkit-box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.2);
+}
+
+.force-overflow:hover .sharebgDiv,
+.force-overflow:hover .uTurnArrow,
+.force-overflow:hover .viewIcon,
+.force-overflow:hover .viewIcon1,
+.force-overflow:hover .viewIcon2 {
+    display: block;
+}
+
+.viewIcon,
+.viewIcon1,
+.viewIcon2,
+.uTurnArrow {
+    display: none;
+}
+
+.title {
+    font-size: 1.25em;
+    color: #000000;
+    width: 100%;
+    float: left;
+}
+
+.subTitle {
+    font-size: 0.813em;
+    color: #999999;
+    width: 100%;
+    float: left;
+}
+
+.sharebgDiv {
+    position: absolute;
+    /* top: 0;
+    right: -35px;
+    width: 35px; */
+    /* -webkit-box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.2);
+    box-shadow: 3px 3px 3px 0px rgba(0, 0, 0, 0.2); */
+    display: none;
+    width: 100%;
+    bottom: 0;
+    /* margin-bottom: 2px; */
+    background: #fafafa;
+}
+
+.sharebgDiv ul {
+    width: 100%;
+    float: left;
+    list-style-type: none;
+    background: #fafafa;
+    padding: 0px;
+    /* height: 31px; */
+    margin: 2px auto;
+    text-align: center;
+    /* height: 65px */
+}
+
+.sharebgDiv li {
+    padding: 5px;
+    display:inline-block;
+}
+.sharebgDiv li a{
+    padding: 5px 20px;
+    color: #000000;
+    font-size: 10px;
+    margin-right: 5px;
+    font-size: 12px;
+    background: #fff;
+    border-radius: 20px;
+    text-decoration: none;
+    cursor:pointer;
+}
+.sharebgDiv li a:hover,.sharebgDiv li a:focus,.sharebgDiv li a:active{
+background:#000;
+color:#fff;
+}
+.sharebgDiv li a:hover svg g,.sharebgDiv li a:focus svg g,.sharebgDiv li a:active svg g{
+    fill:#ffffff;
+}
+.sharebgDiv li a svg g{
+    fill: #000000;
+}
+
+.viewIcon {
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+
+.viewIcon1 {
+    position: absolute;
+    top: 5px;
+    left: 50px;
+}
+
+.viewIcon2 {
+    position: absolute;
+    top: 5px;
+    left: 100px;
+}
+
+.uTurnArrow {
+    background: grey;
+    position: absolute;
+    right: 5px;
+    bottom: 5px;
+}
+
+.contentView {
+    width: 60%;
+    float: left;
+    margin-bottom: 10px; 
+}
+
+.rectangleBg {
+    width: 20%;
+    float: left;
+    margin-top: 10px;
+}
+
+.fighting {
+    height: 13px;
+    width: 44px;
+    color: #999999;
+    font-family: 'Montserrat';
+    font-size: 10px;
+    letter-spacing: 0.46px;
+    line-height: 13px;
+    text-align: right;
+}
+
+.valueShow {
+    width: 20%;
+    float: left;
+    margin-top: 10px;
+}
+
+.infoSectBg {
+    height: 55px;
+    width: 244px;
+    border-radius: 27.5px;
+    background-color: #FAFAFA;
+    margin: auto;
+}
+
+.infoSectBg ul,
+.shareIconsShow ul {
+    list-style-type: none;
+    padding: 0px;
+ text-align: center;
+}
+
+.infoSectBg ul li,
+.shareIconsShow ul li {
+    display: inline-block;
+    padding: 5px;
+}
+
+.infoSectBg ul li span,
+.shareIconsShow ul li span {
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.listOfIcons {
+    list-style: none;
+    float: right;
+    padding-right: 35px;
+}
+
+.listOfIcons li {
+    padding: 5px;
+    display: inline-block;
+}
+
+.sharemask {
+    height: 39px;
+    margin: auto;
+    width: 174px;
+    background-color: #7600FF;
+    border-radius: 19.5px;
+    text-align: center;
+    padding: 10px;
+}
+
+.shareDeckText {
+    height: 18px;
+    width: 158px;
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    letter-spacing: 0.64px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.infoViewVal {
+    color: #000000;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    letter-spacing: 0.69px;
+    line-height: 19px;
+    text-align: right;
+}
+
+.viewValue {
+    height: 13px;
+    width: 18px;
+    color: #999999;
+    font-family: 'Montserrat';
+    font-size: 10px;
+    letter-spacing: 0.46px;
+    line-height: 13px;
+    text-align: right;
+}
+
+.rectangle-2 {
+    height: 3px;
+    width: 42px;
+    border-radius: 1.5px;
+    background-color: #D8D8D8;
+}
+
+.rectangle-1 {
+    height: 3px;
+    width: 21px;
+    border-radius: 1.5px;
+    background-color: #7600FF;
+}
+
+.etherValue {
+    height: 16px;
+    width: 23px;
+    color: #999999;
+    font-family: 'Montserrat';
+    font-size: 13px;
+    letter-spacing: 0.59px;
+    line-height: 16px;
+    text-align: right;
+}
+
+.headLogo {
+    font-size: 45px;
+    font-weight: bold;
+    margin-top: -5px;
+}
+
+.rotateHeight {
+    height: 111px !important;
+    padding: 10px 15px !important;
+}
+
+.rotateImage>img {
+    height: 90px !important;
+}
+
+.rotateIcon {
+    transform: scaleX(-1);
+}
+
+.detailShow {
+    padding: 5px;
+    display: none;
+}
+
+.detailBlock {
+    display: block !important;
+}
+
+.ownedName {
+    width: 100%;
+    float: left;
+    color: #999999;
+    font-family: "Space Mono";
+    font-size: 10px;
+    margin-top: 10px;
+    letter-spacing: 0.46px;
+    line-height: 12px;
+}
+
+.firstDivShow {
+    width: 50%;
+    float: left;
+    margin-top: 20px;
+}
+
+.secondDivShow {
+    width: 50%;
+    float: right;
+    margin-top: 20px;
+}
+
+.errorLabel {
+    position: absolute;
+    right: -153px;
+    top: 14px;
+    border: 1px solid #f00;
+    color: #f00;
+    padding: 0px 5px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.posiRel {
+    position: relative;
+}
+
+.firstDivtitle {
+    height: 22px;
+    width: 144px;
+    background-color: #C0AFFF;
+    text-align: center;
+}
+
+.firstDivContent {
+    height: 126px;
+    width: 144px;
+    overflow-y: auto;
+    background-color: #FFFFFF;
+}
+
+.firstTitleText {
+    color: #000000;
+    font-family: "Space Mono";
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 0.46px;
+    line-height: 12px;
+    margin-left: 5px;
+}
+
+.firstDivContent ul {
+    list-style: none;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.firstDivContent ul li {
+    padding: 6px;
+    display: block;
+}
+
+.secondDivShow .firstDivContent ul {
+    list-style: none;
+    text-align: center;
+    padding: 10px 0px;
+}
+
+.secondDivShow .firstDivContent ul li {
+    padding: 6px;
+    display: inline-block;
+}
+
+.oval {
+    height: 9px;
+    width: 9px;
+    background-color: #3B00FF;
+    float: left;
+    border-radius: 50%;
+    margin: 6px 2px;
+}
+
+.oval1 {
+    height: 9px;
+    width: 9px;
+    background-color: #FF6800;
+    float: left;
+    border-radius: 50%;
+    margin: 6px 2px;
+}
+
+.oval2 {
+    height: 9px;
+    width: 9px;
+    background-color: #36DF3D;
+    float: left;
+    border-radius: 50%;
+    margin: 6px 2px;
+}
+
+.oval3 {
+    height: 9px;
+    width: 9px;
+    background-color: #C0FF00;
+    float: left;
+    border-radius: 50%;
+    margin: 6px 2px;
+}
+
+.oval4 {
+    height: 9px;
+    width: 9px;
+    background-color: #36DF3D;
+    float: left;
+    border-radius: 50%;
+    margin: 6px 2px;
+}
+
+.ovalContent {
+    color: #999999;
+    font-family: "Space Mono";
+    font-size: 9px;
+    letter-spacing: 0.41px;
+    line-height: 13px;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    height: 350px;
+}
+
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #e2e4e6;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #e2e4e6;
+}
+
+/* signUp Style css */
+
+.signUpBg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: #fff;
+    display: flex;
+    align-items: center;
+}
+
+.logoBg {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    width: 85%;
+}
+
+.logoBg>img {
+    display: inline;
+}
+
+.logoText {
+    padding: 5px 10px;
+    vertical-align: middle;
+    display: inline;
+    color: #000000;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 0.27px;
+    line-height: 30px;
+}
+
+.signUpInner {
+    width: 40%;
+    margin: auto;
+}
+
+.signUptext {
+    color: #000000;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 25px;
+    letter-spacing: 0.27px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.signUpInput {
+    border: none;
+    border-bottom: 1px solid #D8D8D8;
+    box-shadow: none !important;
+    border-radius: 0px;
+    font-size: 18px;
+}
+
+.errorsuccess {
+    position: absolute;
+    right: 3px;
+    top: 35px;
+    color: #f00;
+    padding: 0px 5px;
+    border-radius: 4px;
+    font-size: 12px;
+}
+
+.errorsuccess img {
+    width: 15px;
+}
+
+.signUpLabel {
+    color: #999999;
+    font-family: "Montserrat";
+    font-size: 15px;
+    letter-spacing: 0.69px;
+    line-height: 19px;
+    text-align: center;
+}
+
+.signUpBtnBg {
+    width: 100%;
+    text-align: center;
+    margin: 35px 0px;
+}
+
+.signUpbtn {
+    background: #7600FF;
+    border-radius: 20px;
+    padding: 10px;
+    color: #FFFFFF;
+    border: none;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    letter-spacing: 0.64px;
+    line-height: 18px;
+    width: 157.09px;
+    text-align: center;
+    outline: none;
+    /* margin: auto; */
+}
+
+.forgotLink {
+    width: 100%;
+    float: left;
+    font-weight: 600;
+    margin: 10px 0px;
+    color: #626262;
+    font-family: 'Montserrat';
+    font-size: 14px;
+    letter-spacing: 0.64px;
+    line-height: 18px;
+    text-align: center;
+    ;
+}
+
+.errorLabel {
+    position: absolute;
+    left: 100%;
+    top: 7px;
+    border: 1px solid rgb(235, 53, 53);
+    color: #f00;
+    padding: 0px 5px;
+    border-radius: 4px;
+    font-size: 12px;
+    text-align: left;
+    width: 50%;
+}
+
+.successLabel {
+    position: absolute;
+    left: 100%;
+    top: 7px;
+    border: 1px solid rgb(22, 182, 147);
+    color: rgb(22, 182, 147);
+    padding: 0px 5px;
+    border-radius: 4px;
+    font-size: 12px;
+    text-align: left;
+    width: 50%;
+}
+
+.posiRel {
+    position: relative;
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .headLogo {
+        font-size: 40px;
+    }
+    .force-overflow {
+        width: 90%;
+    }
+    .cartoon_sec,
+    .caption,
+    .firstDivtitle,
+    .firstDivContent {
+        width: 100%;
+    }
+    .firstDivShow,
+    .secondDivShow {
+        width: 45%;
+        margin: 18px 5px;
+    }
+}
+
+/* search filter css added */
+
+#side-bar {
+    width: 290px;
+    height: 100%;
+    position: absolute;
+    z-index: 99;
+    padding: 5px;
+    margin-top: 38px;
+    right: 0;
+    background-color: #F6F6F6;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+#main-content {
+    margin-right: 160px;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+}
+
+.hide-left-bar {
+    margin-right: -0px !important;
+    -webkit-transition: all .3s ease-in-out;
+    -moz-transition: all .3s ease-in-out;
+    -o-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out;
+    /* -webkit-animation: slide-left .3s ease-out;
+-moz-animation: slide-left .3s ease-out;
+animation: slide-left .3s ease-out; */
+    display: none !important;
+}
+
+.merge-left {
+    margin-right: 0px !important;
+}
+
+.filterText {
+    color: #000000;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    letter-spacing: 0.27px;
+    line-height: 30px;
+}
+
+.labeldeck {
+    color: #999999;
+    margin-right: 8px;
+    font-family: 'Montserrat';
+    font-size: 11px;
+    letter-spacing: 0.12px;
+    line-height: 14px;
+}
+
+.labelitem {
+    color: #000000;
+    margin-left: 8px;
+    font-family: 'Montserrat';
+    font-size: 11px;
+    letter-spacing: 0.12px;
+    line-height: 14px;
+}
+
+.filterswitch input {
+    display: none;
+}
+
+.filterswitch {
+    position: relative;
+    width: 40px;
+    height: 20px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.filterslider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 1px solid #999999;
+    border-radius: 9px;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.filterslider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: -3px;
+    bottom: 0px;
+    background-color: #000000;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.creater {
+    color: #000000;
+    font-family: 'Montserrat';
+    font-size: 11px;
+    letter-spacing: 0.12px;
+    line-height: 14px;
+}
+
+input:checked+.filterslider {
+    background-color: #fff;
+}
+
+input:focus+.filterslider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.filterslider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+.filterslider.round {
+    border-radius: 34px;
+}
+
+.filterslider.round:before {
+    border-radius: 50%;
+}
+
+.selectcreateDiv {
+    position: relative;
+    z-index: 1;
+}
+
+.selectCreater {
+    height: 24px;
+    width: 100%;
+    outline: none;
+    border: 0.5px solid #D8D8D8;
+    text-indent: 10px;
+    border-radius: 12px;
+    font-size: 10px;
+    -webkit-appearance: none;
+    background: #FFFFFF;
+}
+
+.selectcreateDiv:after {
+    content: "";
+    position: absolute;
+    /* background: url("../images/triangle.png") no-repeat; */
+    background: url("../images/arrow-down.png") no-repeat;
+    width: 8px;
+    height: 8px;
+    background-size: 100% 100%;
+    top: 9px;
+    /* transform: scale(-1); */
+    right: 5px;
+    z-index: 9999;
+}
+
+.dashboardFilter {
+    overflow-x: hidden !important;
+    height: 600px !important;
+    overflow-y: scroll !important;
+    margin-top: 20px;
+}
+
+.searcbyPropBg {
+    position: relative;
+    width: 100%;
+    min-height: 100px;
+    float: left;
+    padding: 5px;
+    background-color: #FFFFFF;
+    margin-bottom: 10px;
+}
+
+.contriName {
+    color: #000000;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    letter-spacing: 0.15px;
+    line-height: 18px;
+}
+
+.contriSpan {
+    color: #7600FF;
+    font-family: 'Montserrat';
+    font-size: 10px;
+    letter-spacing: 0.46px;
+    line-height: 13px;
+    height: 24px;
+    width: 173.09px;
+    border: 0.5px solid #D8D8D8;
+    padding: 5px;
+    border-radius: 12px;
+    background-color: #FFFFFF;
+    float: right;
+}
+
+.contriClose {
+    width: 10px;
+    height: 10px;
+    float: right;
+}
+
+.contriClose img {
+    width: 10px;
+}
+
+.contriList {
+    width: 100%;
+    float: left;
+    margin: 10px 0px;
+}
+
+.searchByIdInp {
+    box-sizing: border-box;
+    width: 100%;
+    border: 1px solid #000000 !important;
+    color: #000000;
+    font-size: 10px;
+    border-radius: 5px !important;
+    text-indent:10px;
+    height: 24px;
+    outline: none;
+}
+
+.searchByText {
+    color: #000000;
+    font-family: 'Montserrat';
+    font-size: 11px;
+    letter-spacing: 0.12px;
+    line-height: 14px;
+}
+
+.rangeSlideDiv,
+rangeSlideDiv1 {
+    width: 100%;
+    float: left;
+}
+
+.rangeSlideDiv label,
+.rangeSlideDiv1 label {
+    color: #999999;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    letter-spacing: 0.15px;
+    line-height: 18px;
+    display: inline;
+}
+
+.rangeSlideDiv input {
+    width: 63% !important;
+    display: inline;
+    margin: 0px 2px !important;
+    ;
+    vertical-align: middle;
+}
+
+.rangeSlideDiv1 input {
+    width: 80% !important;
+    display: inline;
+    margin: 0px 3px !important;
+    ;
+    vertical-align: middle;
+}
+
+input[type=range] {
+    height: 25px;
+    -webkit-appearance: none;
+    margin: 10px 0;
+    width: 100%;
+}
+
+input[type=range]:focus {
+    outline: none;
+}
+
+input[type=range]::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 3px;
+    cursor: pointer;
+    animate: 0.2s;
+    box-shadow: 0px 0px 0px #000000;
+    background: #ddd;
+    border-radius: 1px;
+    border: 0px solid #000000;
+}
+
+input[type=range]::-webkit-slider-thumb {
+    box-shadow: 0px 0px 0px #000000;
+    border: 1px solid #ddd;
+    height: 14px;
+    width: 14px;
+    border-radius: 25px;
+    /* background: #A1D0FF; */
+    background-color: #000000;
+    cursor: pointer;
+    -webkit-appearance: none;
+    margin-top: -5px;
+}
+
+input[type=range]:focus::-webkit-slider-runnable-track {
+    background: #ddd;
+}
+
+input[type=range]::-moz-range-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    animate: 0.2s;
+    box-shadow: 0px 0px 0px #000000;
+    background: #000000;
+    border-radius: 1px;
+    border: 0px solid #000000;
+}
+
+input[type=range]::-moz-range-thumb {
+    box-shadow: 0px 0px 0px #000000;
+    border: 1px solid #000000;
+    height: 18px;
+    width: 18px;
+    border-radius: 25px;
+    background: #A1D0FF;
+    cursor: pointer;
+}
+
+input[type=range]::-ms-track {
+    width: 100%;
+    height: 5px;
+    cursor: pointer;
+    animate: 0.2s;
+    background: transparent;
+    border-color: transparent;
+    color: transparent;
+}
+
+input[type=range]::-ms-fill-lower {
+    background: #ddd;
+    border: 0px solid #000000;
+    border-radius: 2px;
+    box-shadow: 0px 0px 0px #000000;
+}
+
+input[type=range]::-ms-fill-upper {
+    background: #ddd;
+    border: 0px solid #000000;
+    border-radius: 2px;
+    box-shadow: 0px 0px 0px #000000;
+}
+
+input[type=range]::-ms-thumb {
+    margin-top: 1px;
+    box-shadow: 0px 0px 0px #000000;
+    border: 1px solid #ddd;
+    height: 18px;
+    width: 18px;
+    border-radius: 25px;
+    background: #ddd;
+    cursor: pointer;
+}
+
+input[type=range]:focus::-ms-fill-lower {
+    background: #ddd;
+}
+
+input[type=range]:focus::-ms-fill-upper {
+    background: #ddd;
+}
+
+.Slider-value {
+    color: #999999;
+    font-family: 'Montserrat';
+    font-size: 12px;
+    letter-spacing: 0.15px;
+    line-height: 18px;
+}
+
+/* Terms and service css starts */
+
+.termText {
+    color: #000000;
+    font-family: 'Montserrat';
+    font-size: 25px;
+    letter-spacing: 0.27px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.termsModal {
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.termsModal .modal-dialog {
+    top: 14%;
+}
+
+.termsHead {
+    border-bottom: none !important;
+}
+
+.termsTextAlign {
+    text-align: center !important;
+}
+
+.termsBtn {
+  
+    height: 39px;
+    width: 251.53px;
+    outline: none;
+    border: 1px solid #000000;
+    background: #fff;
+    color: #000000;
+    border-radius: 19.5px;
+    padding: 8px 20px;
+    font-family: Montserrat;
+    font-size: 1.125em;
+    text-align: center;
+}
+
+.termsBtn:hover,.termsBtn:focus,.termsBtn:active{
+    background:#000000;color:#fff;
+    -webkit-transition: background-color 2s ease-out;
+     -moz-transition: background-color 2s ease-out;
+     -o-transition: background-color 2s ease-out;
+     transition: background-color 2s ease-out;   
+}
+
+.termsBody {
+    height: 350px;
+    overflow: auto;
+}
+
+.favWidth {
+    width: 65% !important;
+    margin: auto;
+}
+
+.favListShowDiv {
+    width: 100%;
+    float: left;
+    height: 400px;
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    list-style: none;
+}
+
+.favListShowDiv .bannerDiv {
+    width: 30.3%;
+    height: 179px;
+    /* border: 1px solid #979797; */
+    margin: 10px;
+    /* padding: 75px; */
+    /* display: flex; */
+    text-align: center;
+    position: relative;
+}
+
+/* deck hover div css */
+
+.deckHoverDivBg {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.77);
+    width: 120px;
+    min-height: 146px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    top: 0;
+    z-index: 999;
+    right: 0px;
+    text-align: center;
+}
+
+.deckHoverDivBg span {
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 13px;
+    letter-spacing: 0.59px;
+    line-height: 16px;
+    text-align: right;
+}
+
+.deckHoverDivBg ul {
+    list-style: none;
+    padding-left: 15px;
+    text-align: left;
+}
+
+.deckHoverDivBg ul li {
+    padding: 0px;
+    display: block;
+}
+
+.deckHoverDivBg ul li a {
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 10px;
+    letter-spacing: 0.46px;
+    line-height: 13px;
+    text-align: right;
+}
+
+.deckHoverCreateBtn {
+    background-color: #D8D8D8;
+    padding: 3px 5px;
+    border: none;
+    color: #7600FF;
+    font-family: Montserrat;
+    font-size: 10px;
+    letter-spacing: 0.46px;
+    line-height: 13px;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.checkbox-input {
+    display: none;
+}
+
+.checkbox-label,
+.checkbox-text,
+.checkbox-text--description {
+    transition: all 0.4s ease;
+}
+
+.checkbox-label {
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    width: 100%;
+    height: 177px;
+    cursor: pointer;
+    font-size: 24px;
+    font-weight: 400;
+    margin: 16px 0;
+    border: 1px solid #d9d9d9;
+    border-radius: 2px;
+    box-shadow: inset 0 0 0 0 #2196F3;
+}
+
+.checkbox-label:before {
+    content: "";
+    position: absolute;
+    top: 75%;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    opacity: 0;
+    background-color: transparent;
+    background-image: url("../images/tick.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 24px;
+    border-radius: 50%;
+    -webkit-transform: translate(0%, -50%);
+    transform: translate(0%, -50%);
+    transition: all 0.4s ease;
+}
+
+.checkbox-text--title {
+    font-weight: 500;
+    width: 100%;
+    padding: 65px 85px;
+}
+
+.checkbox-text img {
+    width: 100%;
+    height: 175px;
+    object-fit: contain;
+}
+
+.checkbox-input:checked+.checkbox-label {
+    border-color: #000;
+}
+
+.checkbox-input:checked+.checkbox-label:before {
+    top: 15px;
+    opacity: 1;
+}
+
+button[disabled],
+html input[disabled] {
+    cursor: not-allowed;
+}
+
+/* discoveryList css added */
+
+.discoverListShowDiv {
+    width: 100%;
+    float: left;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    list-style: none;
+}
+
+.discoverListShowDiv .itemsdiv {
+    width: 28.3%;
+    height: 179px;
+    border: 2px solid #000000;
+    margin: 10px 20px;
+    padding: 70px;
+    /* display: flex; */
+    text-align: center;
+    font-size: 22px;
+    font-weight: 600;
+    position: relative;
+}
+
+.discoverListShowDiv .itemsdiv:hover .sharebgDiv {
+    display: block;
+}
+
+/* New Dashboard screen designs css */
+
+.deckBgDiv {
+    /* width: 100%;
+    height: 400px; */
+    overflow: auto;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+    float: left;
+}
+
+.deckDiv {
+    min-height: 400px;
+    width: 335px;
+    background-color: #FAFAFA;
+    box-shadow: 2px 2px 4px 0 rgba(197, 197, 197, 0.5);
+    margin: 0px 55px 35px 0px;
+    border:8px solid #f6f6f6;
+}
+
+.deckDivFirst {
+    height: 322px;
+    width: 319px;
+    background-color: #D8D8D8;
+}
+
+.deckDivSecond {
+    width: 100%;
+    float: left;
+    padding: 5px;
+    height: 70px;
+}
+
+.deckDivContText1 {
+    /* height: 20px; */
+    width: 227px;
+    float: left;
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 17px;
+    letter-spacing: 0.89px;
+    line-height: 20px;
+}
+
+.deckDivContText2 {
+    /* height: 14px; */
+    width: 256px;
+    float: left;
+    color: #999999;
+    font-family: Montserrat;
+    font-size: 10px;
+    letter-spacing: 0.46px;
+    line-height: 20px;
+}
+
+.deckDivContText3 {
+    /* height: 14px; */
+    width: 256px;
+    float: left;
+    color: #999999;
+    font-family: Montserrat;
+    font-size: 12px;
+    letter-spacing: 0.55px;
+    line-height: 25px;
+}
+
+.deckDivContText4 {
+    height: 14px;
+    width: 75px;
+    float: right;
+    color: #999999;
+    font-family: Montserrat;
+    font-size: 12px;
+    letter-spacing: 0.55px;
+    line-height: 18px;
+    text-align: right;
+}
+
+.singleImg img {
+    width: 100%;
+    object-fit: contain;
+}
+
+.doubleImg img {
+    width: 100%;
+    height: 150px;
+    object-fit: contain;
+    margin-bottom: 22px;
+}
+
+.fourImg {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.fourImg img {
+    height: 154.63px;
+    width: 153.54px;
+    object-fit: contain;
+    background: #F1F7D2;
+}
+
+.fourImg img:nth-child(1),
+.fourImg img:nth-child(2) {
+    margin-bottom: 10px;
+}
+
+.fourImg img:nth-child(odd) {
+    margin-right: 10px;
+}
+
+.importText {
+    height: 13px;
+    width: 131px;
+    color: #999999;
+    font-family: Montserrat;
+    font-size: 10px;
+    letter-spacing: 0.69px;
+    line-height: 13px;
+    text-align: center;
+}
+
+.comingSoon {
+    height: 18px;
+    padding: 0px 2px;
+    width: 79px;
+    border: 1px solid #00C47F;
+    border-radius: 3px;
+    color: #00C47F;
+    font-family: Montserrat;
+    font-size: 10px;
+    letter-spacing: 0.46px;
+    line-height: 13px;
+}
+
+.chart {
+    height: 20.61px;
+    width: 23px;
+}
+
+.chartText {
+    height: 27px;
+    width: 64px;
+    margin-left: 5px;
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 27px;
+}
+
+.matgin ul li {
+    margin: -8px;
+}
+
+.chartIconShow {
+    min-height: 182px;
+    width: 100%;
+    margin: 10px 0px;
+    border-radius: 5px;
+    background-color: #FAFAFA;
+}
+
+.deckName {
+    height: 27px;
+    vertical-align: middle;
+    width: 78px;
+    margin: 0px 5px;
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 27px;
+    text-align: right;
+}
+
+.botAwesome {
+    height: 19px;
+    width: 256px;
+    color: #999999;
+    font-family: Montserrat;
+    font-size: 18px;
+    letter-spacing: 0.82px;
+    line-height: 22px;
+}
+
+.tableHeader {
+    height: 1.17%;
+    width: 8.54%;
+    color: #999999;
+    font-family: Montserrat;
+    font-size: 25px;
+    letter-spacing: 1.14px;
+    line-height: 12px;
+    text-align: center;
+}
+
+.leftCalDiv {
+    display: inline;
+}
+
+.leftCalDiv svg {
+    vertical-align: middle;
+}
+
+.editBtn {
+    vertical-align: middle;
+    background-color: #D8D8D8;
+    color: #7600FF;
+    border-radius: 20px;
+    border: none;
+    font-family: Montserrat;
+    font-size: 10px;
+    letter-spacing: 0.46px;
+    line-height: 13px;
+    text-align: center;
+    padding: 4px 10px;
+}
+
+.comingSoon {
+    height: 18px;
+    padding: 0px 2px;
+    width: 79px;
+    border: 1px solid #00C47F;
+    border-radius: 3px;
+    color: #00C47F;
+    font-family: Montserrat;
+    font-size: 10px;
+    letter-spacing: 0.46px;
+    line-height: 13px;
+}
+
+.chart {
+    height: 20.61px;
+    width: 23px;
+}
+
+.chartText {
+    height: 27px;
+    width: 64px;
+    margin-left: 5px;
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 27px;
+}
+
+.matgin ul li {
+    margin: -8px;
+}
+
+.chartIconShow {
+    /* height: 182px;	width: 100%;margin:10px 0px;	border-radius: 5px;	background-color: #FAFAFA; */
+    /* height: 182px; */
+    width: 100%;
+    /* margin: 10px 0px; */
+    border-radius: 5px;
+    background-color: #ffffff;
+    /* text-align: center; */
+    box-shadow: 1px 0px 1px 1px #e0e0e0;
+    padding: 12px;
+}
+
+.deckName {
+    height: 27px;
+    vertical-align: middle;
+    width: 78px;
+    margin: 0px 5px;
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 22px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 27px;
+    text-align: right;
+}
+
+.userNaVisible {
+    height: 19px;
+    width: 184px;
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 15px;
+    letter-spacing: 1.01px;
+    line-height: 19px;
+}
+
+.editButtonClr {
+    vertical-align: middle;
+    width: 95px;
+    background-color: #7600FF;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    font-family: Montserrat;
+    float: left;
+    font-size: 10px;
+    letter-spacing: 0.46px;
+    line-height: 13px;
+    text-align: center;
+    padding: 4px 10px;
+    margin-bottom: 5px;
+}
+
+.delButtonClr {
+    vertical-align: middle;
+    width: 95px;
+    background-color: #D8D8D8;
+    color: #7600FF;
+    border-radius: 20px;
+    border: none;
+    font-family: Montserrat;
+    float: right;
+    font-size: 10px;
+    letter-spacing: 0.46px;
+    line-height: 13px;
+    text-align: center;
+    padding: 4px 10px;
+    margin-bottom: 5px;
+}
+
+.leftCalDiv {
+    display: inline;
+}
+
+.leftCalDiv svg {
+    vertical-align: middle;
+}
+
+.editBtn {
+    vertical-align: middle;
+    background-color: #D8D8D8;
+    color: #7600FF;
+    border-radius: 20px;
+    border: none;
+    font-family: Montserrat;
+    font-size: 10px;
+    letter-spacing: 0.46px;
+    line-height: 13px;
+    text-align: center;
+    padding: 4px 10px;
+}
+
+.userNaVisible {
+    height: 19px;
+    width: 184px;
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 15px;
+    letter-spacing: 1.01px;
+    line-height: 19px;
+}
+
+.editButtonClr {
+    vertical-align: middle;
+    width: 95px;
+    background-color: #7600FF;
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    font-family: Montserrat;
+    float: left;
+    font-size: 10px;
+    letter-spacing: 0.46px;
+    line-height: 13px;
+    text-align: center;
+    padding: 4px 10px;
+    margin-bottom: 5px;
+}
+
+.delButtonClr {
+    vertical-align: middle;
+    width: 95px;
+    background-color: #D8D8D8;
+    color: #7600FF;
+    border-radius: 20px;
+    border: none;
+    font-family: Montserrat;
+    float: right;
+    font-size: 10px;
+    letter-spacing: 0.46px;
+    line-height: 13px;
+    text-align: center;
+    padding: 4px 10px;
+    margin-bottom: 5px;
+}
+
+.deckViewTable {
+    margin-top: 25px;
+    width: 100%;
+    float: left;
+    
+}
+
+.deckViewTable thead {
+    border-bottom: 4px solid #000;
+}
+
+.deckViewTable thead tr th {
+    color: #999999;
+    font-family: Montserrat;
+    font-size: 25px;
+    letter-spacing: 1.14px;
+    text-align: center;
+}
+
+.deckViewTable tbody tr td {
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 20px;
+    letter-spacing: 0.91px;
+    text-align: center;
+}
+
+.deckViewTable tbody tr {
+    border-bottom: 1px solid #D8D8D8;
+}
+
+.deckTurnIcon svg {
+    transform: scaleX(-1);
+    margin-left: 5px;
+}
+
+.deckTabImage {
+    height: 131px;
+    width: 132px;
+    margin: 10px 0px;
+    border: 3px solid #000000;
+    background-color: #CFCFFF;
+    object-fit: contain;
+}
+
+.propertyTable {
+    width: 293px;
+    height: 100px;
+    overflow: auto;
+    margin: auto;
+}
+
+.propertyTable thead {
+    border-bottom: none;
+}
+
+.propertyTable thead tr th {
+    background-color: #C0AFFF;
+    padding: 5px;
+    color: #fff;
+    font-family: "Space Mono";
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 0.46px;
+}
+
+.propertyTable tbody tr td {
+    color: #000000;
+    padding: 5px;
+    font-size: 10px;
+    letter-spacing: 0.5px;
+    height: 10px;
+}
+
+.tabType {
+    border-radius: 20px;
+    padding: 2px 10px;
+}
+
+.typeClr {
+    background: #FFD8E0;
+}
+
+.typeClr1 {
+    background: #D9FFD8;
+}
+
+.typeClr2 {
+    background: #CFCFFF;
+}
+
+.typeClr3 {
+    background: #FFF1D8;
+}
+
+.typeClr4 {
+    background: #FBFFB1;
+}
+
+.my-account {
+    height: 55px;
+    width: 302px;
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 1.68px;
+    line-height: 55px;
+}
+
+.back-to-dashboard {
+    height: 16px;
+    width: 134px;
+    color: #FF007A;
+    font-family: Montserrat;
+    font-size: 13px;
+    letter-spacing: 0.59px;
+    line-height: 16px;
+}
+
+.marginTop {
+    margin-top: 10px;
+}
+
+.accLabel {
+    color: #000000;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    line-height: 12px;
+}
+
+.accInput {
+    height: 12px;
+    width: 217px;
+    color: #000000;
+    font-size: 11px;
+    outline: none;
+    letter-spacing: 0.5px;
+    border: none;
+    border-bottom: 1px solid #000000;
+}
+
+.accSapn {
+    color: #000000;
+    font-size: 11px;
+    letter-spacing: 0.5px;
+    line-height: 12px;
+}
+
+.acclabel {
+    border: 1px solid #41e4a8;
+    padding: 3px 10px;
+    font-size: 11px;
+    border-radius: 6px;
+    color: #298641;
+    margin-left: 7px;
+}
+
+.accSetErr {
+    border: 1px solid #f00;
+    padding: 3px 10px;
+    font-size: 11px;
+    border-radius: 6px;
+    color: #f00;
+    margin-left: 7px
+}
+
+.chartIconShow img {
+    width: 100%;
+    height: 200px;
+    object-fit: contain;
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .headLogo {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+    .headLogo {
+        font-size: 30px;
+        text-align: center;
+    }
+    .sharemask {
+        margin-top: 10px;
+    }
+    .force-overflow {
+        width: 94%;
+    }
+    .secondDivShow .firstDivContent ul li {
+        padding: 10px;
+    }
+    .cartoon_sec,
+    .caption,
+    .firstDivtitle,
+    .firstDivContent {
+        width: 100%;
+    }
+    .listOfIcons {
+        padding: 10px 0px;
+    }
+    .firstDivShow,
+    .secondDivShow {
+        width: 45%;
+        margin: 18px 5px;
+    }
+    .nav>li {
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .secondDivShow .firstDivContent ul li {
+        padding: 5px;
+    }
+}
+
+.matgin ul li {
+    margin: -8px;
+}
+
+.marginRight {
+    margin-right: 10px;
+}
+
+.marginBottom {
+    margin-bottom: 20px;
+}
+
+.controlClrLess {
+    background: url(../images/controls.png) no-repeat;
+    width: 25px;
+    height: 23px;
+    background-size: 100% 100%;
+}
+
+.controlClr {
+    background: url(../images/controlsClr.png) no-repeat;
+    width: 25px;
+    height: 23px;
+    background-size: 100% 100%;
+}
+
+.navbar-default .navbar-nav>li>a {
+    padding: 5px 10px;
+}
+
+.navbar-nav>li {
+    padding: 5px 10px;
+}
+
+.dropDownLiDiv {
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    padding: 6px 12px;
+}
+
+.userNameView a {
+    background-color: #FAFAFA;
+    padding: 10px;
+    text-align: center;
+}
+
+.userNameView a .sign {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    padding: 7px;
+    margin: auto;
+    font-size: 12px;
+    margin-bottom: 5px;
+    background: #000;
+}
+
+.navbar-nav>li>.dropdown-menu {
+    padding: 0px;
+}
+
+.userNameView a span {
+    display: block;
+    text-align: center;
+}
+
+.profileView>li>a {
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 12px;
+    letter-spacing: 0.67px;
+    line-height: 15px;
+    text-align: left;
+}
+
+.deleTitle {
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-weight: bold;
+    letter-spacing: 1.68px;
+    line-height: 55px;
+    text-align: center;
+}
+
+.deleP {
+    color: #999999;
+    font-family: Montserrat;
+    font-size: 12px;
+    letter-spacing: 0.91px;
+    line-height: 15px;
+    text-align: center;
+}
+
+.redClr {
+    background: #E50000 !important;
+    color: #fff;
+    border:1px solid #E50000 !important;
+}
+
+.purpleClr {
+    background: #000000;
+    color: #fff;
+}
+
+.iconShow {
+    float: right;
+    margin-top: 25px;
+}
+
+.iconShow div {
+    display: inline;
+    margin-right: 8px;
+}
+
+/* discovery */
+
+.discoveryitem {
+    width: 100%;
+    float: left;
+    overflow: auto;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    padding: 5px;
+    list-style: none;
+}
+
+.discoveryitemDiv {
+    width: 33.3%;
+    padding: 10px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.discoveryItemBox {
+    border: 1px solid #979797;
+    height: 180px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background-position: center;
+}
+
+.discoveryItemBox:hover{
+    -webkit-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.2);
+    box-shadow: 3px 3px 3px 0px rgba(0,0,0,0.2);
+}
+
+.discoveryItemTitle {
+    font-family: Montserrat;
+    font-size: 1.85em;
+    font-weight: bold;
+    letter-spacing: 0.22px;
+    line-height: 24px;
+    text-align: center;
+    background-color: rgba(255,255,255,0.85);
+    padding:10px 20px;
+}
+
+.discoveryitemDiv img {
+    width: 100%;
+    height: 160px;
+    object-fit: contain;
+}
+.discoveryitemDiv:hover{background:#CFCFFF;}
+.discoveryitemDiv.activeDeck{background:#CFCFFF;}
+
+/* bibin */
+
+.caption_stats{
+    background: #fafafa;
+    width: 100%;
+    min-height: 65px;
+    float: left;
+    padding: 15px 5px;
+}
+
+.propertyTable_stats{
+    width: 100%;
+    height: 100px;
+    overflow: auto;
+    margin: auto;
+}
+.propertyTable_stats thead tr th{
+    background-color: #C0AFFF;
+    padding: 5px;
+    color: #fff;
+    font-family: "Space Mono";
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 0.46px;
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .headLogo {
+        font-size: 30px;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:767px) {
+    .headLogo {
+        font-size: 30px;
+        text-align: center;
+    }
+    .sharemask {
+        margin-top: 10px;
+    }
+    .force-overflow {
+        width: 94%;
+    }
+    .secondDivShow .firstDivContent ul li {
+        padding: 10px;
+    }
+    .cartoon_sec,
+    .caption,
+    .firstDivtitle,
+    .firstDivContent {
+        width: 100%;
+    }
+    .listOfIcons {
+        padding: 10px 0px;
+    }
+    .firstDivShow,
+    .secondDivShow {
+        width: 45%;
+        margin: 18px 5px;
+    }
+    .nav>li {
+        display: inline-block;
+    }
+}
+
+@media screen and (min-width:320px) and (max-width:480px) {
+    .secondDivShow .firstDivContent ul li {
+        padding: 5px;
+    }
+}
+
+/* create new disk */
+
+.popupCont {
+    border-radius: 0px !important;
+    float: left;
+    box-shadow: 1px 2px 4px 4px rgba(178, 178, 178, 0.5);
+    -webkit-box-shadow: 1px 2px 4px 4px rgba(178, 178, 178, 0.5);
+    -moz-box-shadow: 1px 2px 4px 4px rgba(178, 178, 178, 0.5);
+}
+
+.popupTitle {
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 45px;
+    font-weight: bold;
+    letter-spacing: 1.68px;
+    line-height: 55px;
+}
+
+.popupTitSub {
+    color: #999999;
+    font-family: Montserrat;
+    font-size: 12px;
+    letter-spacing: 0.91px;
+    line-height: 15px;
+}
+
+.popupClose {
+    opacity: 1;
+    font-size: 42px;
+    margin-top: -8px;
+}
+
+.deckBg {
+    height: 298px;
+    width: 259px;
+    box-shadow: 0 2px 4px 0 rgba(154, 154, 154, 0.5), 0 2px 4px 0 rgba(0, 0, 0, 0.5);
+}
+
+.cancelBtn {
+    background-color: #D8D8D8;
+    width: 158.09px;
+    padding: 10px;
+    float: left;
+    border-radius: 20px;
+    border: none;
+    margin: 20px 0px;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    letter-spacing: 0.64px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.createDeckBtn {
+    background-color: #7600FF;
+    width: 158.09px;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 20px 0px;
+    color: #FFFFFF;
+    float: right;
+    font-family: Montserrat;
+    font-size: 14px;
+    letter-spacing: 0.64px;
+    line-height: 18px;
+    text-align: center;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 44px;
+    height: 20px;
+    vertical-align: middle;
+}
+
+.labelPrivate {
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 11px;
+    letter-spacing: 0.12px;
+    line-height: 14px;
+    margin-right:7px;
+}
+
+.labelPublic {
+    color: #999999;
+    font-family: Montserrat;
+    font-size: 11px;
+    letter-spacing: 0.12px;
+    line-height: 14px;
+    margin-left:7px;
+}
+
+.switch input {
+    display: none;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border: 1px solid #999999;
+    border-radius: 9px;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    left: 0px;
+    bottom: 0px;
+    background-color: #000000;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #fff;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* / Rounded sliders / */
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+/* style for buttons */
+
+.btn-clear_field {
+    /* height: 14px; */
+    width: 98.77px;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 10px;
+    letter-spacing: 0.46px;
+    line-height: 13px;
+    text-align: center;
+    margin-left: 12%;
+}
+
+.search_btn {
+    margin-left: 10px;
+}
+
+.footer-section {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 20px;
+    left: 0;
+    right: 0;
+}
+
+.footer-section button,
+.footer-section button:hover,
+.footer-section button:focus {
+    display: inline-block;
+    /* color: #000000; */
+    outline: none !important;
+    border: none;
+}
+
+/* loader css */
+
+.loaderBg {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: #0000009e;
+    z-index: 999;
+    display: flex;
+    align-items: center;
+    left: 0;
+    top: 0;
+}
+
+.loaderimg {
+    margin: auto;
+    text-align: center;
+}
+
+.boxlist {
+    float: left;
+    width: 100%;
+}
+
+/* landing page designs */
+
+.registered-beta-user {
+    height: 13px;
+    width: 124px;
+    color: #00C47F;
+    font-family: Montserrat;
+    font-size: 10px;
+    letter-spacing: 0.46px;
+    line-height: 13px;
+    border: 1px solid #00C47F;
+    border-radius: 3px;
+    padding: 0px 5px;
+}
+
+.registered-beta-user:hover {
+    text-decoration: none;
+    color: #00C47F;
+}
+
+.registerBg {
+    position: absolute;
+    right: 0;
+    top: 25px;
+}
+
+.landingH1 {
+    font-size: 53px;
+    font-weight: 600;
+}
+
+.landingP {
+    margin: 10px 0px;
+    font-size: 16px;
+    color: #777;
+}
+
+.footerBg {
+    border-top: 2px solid rgba(178, 178, 178, 0.5);
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 10px;
+    background:#fff;
+}
+
+.acceptbtn {
+    background-color: #00C47F;
+    /* height: 18px; */
+    width: 158px;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    letter-spacing: 0.64px;
+    /* line-height: 18px; */
+    text-align: center;
+    padding: 5px;
+    float: right;
+    border: none;
+    border-radius: 20px;
+    outline: none;
+}
+
+.footerBg p {
+    float: left;
+    font-size: 10px;
+    margin: 5px 0px;
+}
+
+.shareOnHoveDiv{
+    top: 35px;
+    right: 35px;
+}
+/* share popup css starts */
+.cool-bots {
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 35px;
+    font-weight: bold;
+}
+.cool-botsp{color: #999999;
+font-family: Montserrat;
+font-size: 18px;
+letter-spacing: 0.82px;
+line-height: 22px;}
+.sharePopCont {
+    width: 600px;
+}
+
+.shareIconsShow{
+        height: 55px;
+        width: 205px;
+        border-radius:0px;
+        background-color: #FAFAFA;
+}
+.shareDeckBg{
+    width:100%;
+    height:300px;
+    display:flex;
+    flex-wrap: wrap;
+    overflow: auto;
+}
+.shareDeck {
+    height: 159px;
+    width: 160px;
+    background-color: #CFCFFF;
+    padding:10px;
+    margin: 8px;
+}
+.shareDeck img {
+       height: 125px;
+       width: 135px;
+    object-fit: contain;
+}
+.shareoOntext {
+    color: #626262;
+    font-family: Montserrat;
+    font-size: 16px;
+    letter-spacing: 0.73px;
+    line-height: 19px;
+    text-align: center;
+}
+.shareOnbtn{
+    background-color: #7600FF;
+    width: 113.09px;
+    border: none;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 20px 0px;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 14px;
+    letter-spacing: 0.64px;
+    line-height: 18px;
+    text-align: right;
+    margin-right:5px;
+}
+.shareOnbtn img {
+        width: 18px;
+        float: left;
+}
+
+.shareOnSingleDeck{
+    height: 367px;
+    width: 320px;
+    margin: auto;
+}
+.shareOnSinglePart1{
+    height: 304px;
+    width: 320px;
+   padding: 35px 60px;
+    background-color: #CFCFFF;
+
+}
+.shareOnSinglePart1 img {
+    height: 228px;
+    width: 199px;
+    object-fit: contain;
+}
+.shareOnSinglePart2 {
+    width:100%;
+    float:left;
+    background-color: #FAFAFA;
+    padding:0px 5px;
+    margin-bottom:10px;
+}
+.shareOnH1{
+    color: #000000;
+    font-family: Montserrat;
+    font-size: 20px;
+    letter-spacing: 0.73px;
+    line-height: 24px;
+    float:left;
+    }
+.shareOnP{
+color: #999999;
+width:100%;
+font-family: Montserrat;
+font-size: 13px;
+letter-spacing: 0.59px;
+line-height: 16px;
+text-align: left;
+float:left;
+}
+.shareOnIconVal{
+        float: right;
+        padding: 10px;
+        font-size: 13px;
+        vertical-align: middle;
+        display: inline;
+        color: #999999;
+}
+
+.shareOnLinkBtn{
+    background-color: #7600FF;
+    border: none;
+    height: 26px;	width: 109px;
+    border-radius: 20px;
+    margin: 5px 0px;
+    color: #FFFFFF;
+    font-family: Montserrat;
+    font-size: 12px;
+    letter-spacing: 0.55px;	line-height: 15px;
+    text-align: right;
+}
+.shareOnLinkBtn img {
+        width: 15px;
+        float: left;
+}
+
+.scrollDivheight{
+        width: 100%;
+        height: 350px;
+        overflow-y: scroll;
+}
+
+.marginTop10{margin-top:10px;}
+.margintpDn{margin:20px 0px;}
+.marginBm{margin-bottom:10px;}
+.propertyTable_stats tbody tr td{padding:5px;}
+.topVal{top:35px;}
+.deckTableScr{
+    width: 100%;
+    float: left;
+    height: 200px;
+    overflow-y: auto;
+}
+
+/* New theme designs style  */
+
+/* Button styles starts */
+.blackGoastBtn{
+    height: 39px;	width: auto;outline:none;	border: 1px solid #000000;	background:#fff;color:#000000;border-radius: 19.5px; padding:8px 20px;font-family: Montserrat;	font-size: 1.125em;  	text-align: center;
+}
+.blackGoastBtn:hover,.blackGoastBtn:focus,.blackGoastBtn:active{
+    background:#000000;color:#fff;
+    -webkit-transition: background-color 2s ease-out;
+     -moz-transition: background-color 2s ease-out;
+     -o-transition: background-color 2s ease-out;
+     transition: background-color 2s ease-out;   
+}
+button.blackGoastBtn[disabled]{
+    border: 1px solid #D8D8D8;
+    color: #D8D8D8;
+    cursor:not-allowed;
+}
+button.blackGoastBtn[disabled]:hover{
+    background:#fff;color:#D8D8D8;  
+}
+.grayGoastBtn{ 
+    height: 39px;	width: auto;	outline:none;border: 1px solid #C2C2C2;background-color: #C2C2C2;;color:#fff;border-radius: 19.5px; padding:8px 20px;font-family: Montserrat;	font-size: 1.125em;  	text-align: center;
+}
+.grayGoastBtn:hover,.grayGoastBtn:focus,.grayGoastBtn:active{
+    background-color: #A2A2A2;color:#fff;
+    -webkit-transition: background-color 2s ease-out;
+     -moz-transition: background-color 2s ease-out;
+     -o-transition: background-color 2s ease-out;
+     transition: background-color 2s ease-out;   
+}
+button.grayGoastBtn[disabled]{
+    background-color: #D8D8D8;
+    color: #fff;
+}
+button.grayGoastBtn[disabled]:hover{
+    background-color: #D8D8D8;
+    color: #fff;
+}
+.smallBtn{
+    height: 20px !important; padding:2px 10px !important;font-size: 0.8em !important;
+}
+.blackGoastBtn:hover svg{
+    color:#fff;
+}
+/* Button styles end */
+
+/* input style starts */
+.commonLabel{
+    font-size:0.75em;
+    color:#000000;
+    font-family: Montserrat;
+    text-align:left;
+}
+.commonLink{
+    font-size:0.75em;
+    color:#000000;
+    font-family: Montserrat;
+    text-align:center;
+}
+
+
+.commonNotifysuccess{
+    width: 100%;
+    font-size:0.625em;
+    color:#00C47F;
+    font-family: Montserrat;
+    text-align:right;
+}
+.commonNotifyerror{
+    width: 100%;
+    font-size:0.625em;
+    color:#E50000;
+    font-family: Montserrat;
+    text-align:right;
+}
+.commonInput,select{
+width:100%;
+ height: 40px;
+border: 1px solid #000000 !important;
+color:#000000;
+padding:5px;
+font-size: 1em;
+font-family: Montserrat;
+text-indent: 16px;
+border-radius:5px !important;
+}
+input.commonInput:focus{
+    border: 1px solid #C695FF;
+box-shadow: 0 0 3px #C695FF;
+}
+input.commonInput[disabled]{
+    border: 1px solid #D8D8D8 !important;
+    color: #D8D8D8 !important;
+    background: #fff;
+}
+.blackGoastBtn img {
+    width: 18px;
+    float: left;
+}
+
+/* accountsetting start css */
+.accSetLab{
+    color: #000000;	font-family: Montserrat;	font-size: 15px;	letter-spacing: 0.69px;	line-height: 19px;
+}
+.accSetp {
+    color: #999999;	font-family: Montserrat;	font-size: 10px;	letter-spacing: 0.46px;	line-height: 13px;
+}
+.backClr{border-radius: 5px;	background-color: #FAFAFA;    padding: 15px;}
+input[type=checkbox].css-checkbox { position: absolute;  overflow: hidden;  clip: rect(0 0 0 0);  height:1px;  width:1px;  margin:-1px;  padding:0; border:0; } 
+input[type=checkbox].css-checkbox + label.css-label { padding-left:20px; height:15px;  display:inline-block; line-height:15px; background-repeat:no-repeat; background-position: 0 0; color: #999999;	font-family: Montserrat;	font-size: 10px;	font-weight:400;letter-spacing: 0.46px;	line-height: 13px; vertical-align:middle; cursor:pointer; } 
+input[type=checkbox].css-checkbox:checked + label.css-label { background-position: 0 -15px; }  .css-label{ background-image:url("../images/lite-x-red.png"); }
+.accSetInput{width: 85%;
+    border: none;
+    height: 28px;
+    background: #fafafa;
+    outline: none;}
+.accSelSuccess{
+    border-radius: 19.5px;
+    color: #fff;
+    height: 20px; width:auto;padding:2px 10px ;font-size: 0.8em; background:#000000;font-family: Montserrat;text-align: center;
+}
+.enterBtnSty{
+    position: absolute;
+    right: 15px;
+    top: 34px;
+}
+/* loader css */
+.art-loader{
+	position: fixed;
+    background: rgba(0,0,0,0.8);
+    width: 100%;
+    height: 100%;
+    top: 0;
+    bottom: 0;
+    right: 0;
+	left: 0;
+	z-index: 1;
+}
+.loader {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+  }
+  .loader .circle {
+	position: absolute;
+	width: 38px;
+	height: 38px;
+	opacity: 0;
+	transform: rotate(225deg);
+	animation-iteration-count: infinite;
+	animation-name: orbit;
+	animation-duration: 5.5s;
+  }
+  .loader .circle:after {
+	content: '';
+	position: absolute;
+	width: 5px;
+	height: 5px;
+	border-radius: 5px;
+	background: #fff;
+	/* Pick a color */
+  }
+  .loader .circle:nth-child(2) {
+	animation-delay: 240ms;
+  }
+  .loader .circle:nth-child(3) {
+	animation-delay: 480ms;
+  }
+  .loader .circle:nth-child(4) {
+	animation-delay: 720ms;
+  }
+  .loader .circle:nth-child(5) {
+	animation-delay: 960ms;
+  }
+  @keyframes orbit {
+	0% {
+	  transform: rotate(225deg);
+	  opacity: 1;
+	  animation-timing-function: ease-out;
+	}
+	7% {
+	  transform: rotate(345deg);
+	  animation-timing-function: linear;
+	}
+	30% {
+	  transform: rotate(455deg);
+	  animation-timing-function: ease-in-out;
+	}
+	39% {
+	  transform: rotate(690deg);
+	  animation-timing-function: linear;
+	}
+	70% {
+	  transform: rotate(815deg);
+	  opacity: 1;
+	  animation-timing-function: ease-out;
+	}
+	75% {
+	  transform: rotate(945deg);
+	  animation-timing-function: ease-out;
+	}
+	76% {
+	  transform: rotate(945deg);
+	  opacity: 0;
+	}
+	100% {
+	  transform: rotate(945deg);
+	  opacity: 0;
+	}
+  }
+  
+.fontSize{
+    font-size: 0.9em;
+    cursor: pointer;
+}
+.loginMenuBtn{
+    border: 1px solid #000;
+    padding: 0px 5px !important;
+    border-radius: 3px;
+    /* vertical-align: middle; */
+    /* display: inherit; */
+    margin-top: 5px;
+}
+.loginMenuBtn:hover{background:#000;color:#fff;}
+.navbar-brand{cursor: pointer;}
+.dashNameBg{border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    color: #fff !important;
+    background: #000;cursor: pointer;}
+.modalDiaEditDeck{
+    width:750px;
+}
+.settingDrop{
+    color: #999999;	font-family: Montserrat;font-weight:600;	font-size: 11px;	letter-spacing: 0.12px;	line-height: 14px;text-decoration: none;
+}
+.settingBg{float:right;}
+.settingBg > .dropdown-menu{
+    right: 0 !important;
+    left: unset;
+}
+.settingBg a:hover{color:#000;text-decoration: none;cursor: pointer;}
+.dashNameBg:hover,.dashNameBg:focus,.dashNameBg:active{
+    color: #fff !important;
+    background: #000 !important; cursor: pointer;
+}
+.landingIn li a{color:#999999;}
+.landingIn li a:hover{background: transparent;}
+.landingIn li a.loginMenuBtn{margin-top:13px !important;}
+.landingIn li a.loginMenuBtn:hover{background:#000;color:#fff;}
+
+/* deck click to flip 180deg */
+
+.card-flip {        
+    cursor: pointer;
+    perspective: 1000px;
+}
+.card-flip-flipper {
+    transition: .6s ease;
+    transform-style: preserve-3d;
+    position: relative;
+    width: 100%;
+    float: left;
+    min-height: 430px;
+    margin: 20px 0px;
+}
+
+.card-flip-content {
+    width: 100%;
+    backface-visibility: hidden;
+    position: absolute;
+    /* overflow: hidden; */
+}
+
+.card-flip-content-front {
+    transform: rotateY(0deg);
+    z-index: 2;
+}
+
+.card-flip-content-back {
+        background: rgb(255, 255, 255);
+        font-family: sans-serif;
+        color: white;
+        text-align: center;
+        /* top: 20px; */
+        padding: 16px;
+        height: 415px;
+        border:8px solid #f6f6f6;
+    transform: rotateY(180deg);
+}
+
+.card-flip.clicked .card-flip-flipper {
+    transform: rotateY(180deg);
+}
+.deckSect{height: 25px !important;	width: auto !important;	float:left;border-radius: 5px !important;	background-color: #FAFAFA !important ;margin:10px 0px 0px 0px;}
+.deckSect ul li{display: inline;}
+.deckSect ul{float:left;}
+.deckSect ul li span{vertical-align: middle;width:auto;float:none;margin-right:5px;}
+.deckshare{float:left;margin:10px 0px 0px 10px;}
+.userNameDeck{margin-top:10px;float:right;}
+.marginTop20{margin-top:20px;}
+.userNameLetter {	height: 29px;	float:left;width: 29px;	padding:2px;background-color: #999999;border-radius:50px;color:#fff;font-family: Montserrat;	font-size: 19px;	letter-spacing: 1.28px;	line-height: 23px;	text-align: center;}
+.userNameSpan{vertical-align: middle;
+    display: inline;
+    margin-left: 5px;color: #000000;	font-family: Montserrat;	font-size: 15px;	letter-spacing: 1.01px;	line-height: 19px;	text-align: right;}
+.selWid{width: 155px;}
+
+/* save deck popup design */
+
+.saveDeckName{
+    color: #000000;	font-family: Montserrat;	font-size: 25px;	font-weight: bold;	letter-spacing: 0.93px;	line-height: 30px;
+}
+
+.mydeckCheck {
+    display: block;
+    position: relative;
+    padding-left: 40px;
+    margin-bottom: 5px;
+    cursor: pointer;
+    color: #000000;	font-family: Montserrat;	font-size: 15px;	letter-spacing: 1.14px;	line-height: 19px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.mydeckCheck input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 22px;
+    width: 22px;
+    background-color: transparent;
+    border-radius:3px;
+    border:1px solid #000;
+}
+
+
+/* When the checkbox is checked, add a blue background */
+.mydeckCheck input:checked ~ .checkmark {
+    background-color: #000;
+    border-radius:3px;
+}
+ 
+  .mydeckUl{
+      list-style: none;
+      padding:5px;
+  }
+  .mydeckUl li{
+      display:block;
+      padding:5px;
+  }
+  /* .modal-dialog{top: 15%;} */
+
+  .editPopDialog{
+      width:700px;
+  }
+  .editDeckBg{
+      width:100%;
+      height:340px;
+      float:left;
+  }
+  .editDeckBg .caption {
+      padding: 0px 5px;
+      min-height: 90px;
+  }
